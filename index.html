@@ -3,7 +3,7 @@
 
 <head>
     <meta charset=utf-8 />
-    <title>Lab 10</title>
+    <title>Housing Prices in the US</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
@@ -141,7 +141,7 @@
         function drawMap(dataLayer) {
 
             var breaks = getClassBreaks(dataLayer);
-            
+
             dataLayer.eachLayer(function (layer) {
                 layer.setStyle({
                     // convert value to number before sending to getColor
